@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Bhabuk Pokharel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Template css Files -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+  
+  <!-- Live Style Switcher - Demo Only -->
+  <link rel="stylesheet" class="alternate-style" title="pink" href="{{ url_for('static', filename='css/skins/pink.css') }}" type="text/css">
+  <link rel="stylesheet" class="alternate-style" title="blue" href="{{ url_for('static', filename='css/skins/blue.css') }}" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="green" href="{{ url_for('static', filename='css/skins/green.css') }}" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="orange" href="{{ url_for('static', filename='css/skins/orange.css') }}" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="yellow" href="{{ url_for('static', filename='css/skins/yellow.css') }}" type="text/css" disabled>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styleSwitcher.css') }}" type="text/css">
+</head>
+
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader">
+
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Main Container -->
+  <div class="main-container">
+    <!-- Aside -->
+    <div class="aside">
+      <!-- Nav Toggler Btn -->
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <div class="aside-inner">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="#">Bhabuk</a>
+        </div>
+        <!-- Nav -->
+        <ul class="nav">
+          <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+          <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
+          <!-- <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li> -->
+          <!-- <li><a href="#blog"><i class="fa fa-envelope"></i> Blog</a></li> -->
+          <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+        </ul>
+        <!-- Copyright -->
+        <div class="copyright-text">
+          &copy; 2025 Bhabuk Pokharel
+        </div>
+      </div>
+    </div>
+    <!-- Aside End -->
+    <!-- Main Content -->
+    <div class="main-content">
+
+      <!-- Home Section -->
+      <section class="home section active" id="home">
+        <div class="container">
+          <div class="intro">
+
+            <img src="{{ url_for('static', filename='images/about.jpg') }}" alt="profile" class="shadow-dark">
+            <h1>Bhabuk Pokharel</h1>
+            <span class="iTyped"></span>
+            <div class="social-links">
+              <a href="https://github.com/Bhabukpokharel"><i class="fa fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/bhabuk-pokharel-7b9806117/"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home Section End -->
+
+      <!-- About Section -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h3>I'm Bhabuk Pokharel and <span> Data Analyst </span> / <span>Business Intelligence Analyst</span></h3>
+                  <p>A methodical and innovative Data Analyst with over 5 years of experience in research, data management, and qualitative and 
+                    quantitative analysis. Skilled in leading cross-functional teams as a Data Analyst, driving the development, documentation, and 
+                    delivery of process innovations to achieve business goals. Highly analytical, with extensive hands-on experience in data analysis, 
+                    research methodologies, data modeling, manipulation, KPI dashboards and scorecards, and data visualization. </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="personal-info padd-15">
+                  <div class="row">
+                    <div class="info-item padd-15">
+                      <p>Birthday : <span>17 September 1996</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Age : <span>28</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Website : <span>www.bhbaukpokharel.com</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Email : <span>info.bhabukpokharel@gmail.com</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Degree : <span>BSC.CSIT</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Phone : <span>+977 9861338379</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>City : <span>Kathmandu</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Freelance : <span>Available</span></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <a href="https://drive.google.com/file/d/15GiSI4KGfCsocRMmheJGQLSber-im4gs/view" class="btn">Download CV</a>
+                      <a href="#contact" data-section-index="1" class="btn hire-me">Hire me</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills padd-15">
+                  <div class="row">
+                    <div class="skill-item padd-15">
+                      <h5>Python</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 76%;"></div>
+                        <div class="skill-porcent">
+                          76%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Tableau</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 75%;"></div>
+                        <div class="skill-porcent">
+                          75%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>PowerBI</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 70%;"></div>
+                        <div class="skill-porcent">
+                          70%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5> PostgreSQL</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 70%;"></div>
+                        <div class="skill-porcent">
+                          70%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5> Snowflake</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 60%;"></div>
+                        <div class="skill-porcent">
+                          60%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>  Analytical Skills</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 70%;"></div>
+                        <div class="skill-porcent">
+                          70%
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="education padd-15">
+                  <h3 class="title">Education</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2014 - 2018</h6>
+                          <h4 class="timeline-title">Bachelor of Science in Computer Science and Information Technology</h4>
+                          <p class="timeline-text">I hold a Bachelor of Science in Computer Science and Information Technology, which I completed in 2018.
+                            Throughout my studies, I developed a strong understanding of computer programming, algorithms, software development, and data management.
+                            My coursework and hands-on projects allowed me to gain expertise in areas such as web development, database systems, artificial intelligence, 
+                            and machine learning. Since graduating, I have been applying my knowledge and skills to real-world data analysis, software development, and other 
+                            technology-driven projects, always staying curious about new advancements in the field.</p>
+                        </div>
+                        <!-- timeline Item End -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="experience padd-15">
+                  <h3 class="title">Experience</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2023/12 - Present</h6>
+                          <h4 class="timeline-title">Senior Data Analyst</h4>
+                          <ul class="timeline-list">
+                            <li class="timeline-text">Perform detailed analysis on large datasets to uncover trends, patterns, and anomalies.
+                              Identify, define, and monitor key performance indicators (KPIs) to measure business performance 
+                             and goals</li>
+                            <li class="timeline-text">Design and manage MongoDB databases, develop visualizations and dashboards to effectively 
+                              communicate insights to stakeholders.</li>
+                            <li class="timeline-text"> Collaborate with system architecture teams to integrate data analytics with existing systems, and 
+                              contribute to the design of data-driven products and solutions.</li>
+                            <li class="timeline-text">Create and maintain reports, and work with cross-functional teams to support data-driven 
+                              decision-making and business strategies.</li>
+                            <li class="timeline-text"> Monitor customer satisfaction, identify issues, and propose actions for improvement based on 
+                              data analysis.</li>
+                          </ul>
+                        </div>
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2021/07 - 2022/12</h6>
+                          <h4 class="timeline-title">Sr. Business Intelligence Analyst</h4>
+                          <ul class="timeline-list">
+                            <li class="timeline-text">Operationalized business intelligence solutions and conducted advanced analytics to identify opportunities and strengths to meet business goals.</li>
+                            <li class="timeline-text">Gather, Analyze and distribute intelligence on products, competitors, brand and customer behaviors using various platforms and making reports, Establish and Monitor Commercial KPIs</li>
+                            <li class="timeline-text">Maintain or update business intelligence tools, databases, dashboards, systems, or methods. Support Analytics for Business Decisions and planning</li>
+                            <li class="timeline-text">Participating and performing analysis of Product, Services and Solution performance data with the targets and preparing follow-up and result reports.</li>
+                            <li class="timeline-text">Monitoring existing customer satisfaction, complaints, needs and plans for necessary actions for existing and future products, services and solutions</li>
+                          </ul>
+                        </div>
+
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2020/05 - 2021/06</h6>
+                          <h4 class="timeline-title">Business Intelligence Developer</h4>
+                          <ul class="timeline-list">
+                            <li class="timeline-text">Utilize various BI tools to develop complex, interactive visualizations, reports, dashboards, and techniques to solve business problems</li>
+                            <li class="timeline-text">Collaborate with business partners, project managers, and data developers to evaluate required data and reporting functionality, communicate tradeoffs and alternative solutions, and plan out,prioritize, and lead related development efforts</li>
+                            <li class="timeline-text">Experience with reporting tools such as Tableau, Power BI, Excel, Work with internal clients to understand business requirements.</li>
+                            <li class="timeline-text">Relevant experience in business intelligence role, and business intelligence tools, techniques and technology, or experience in analytics, business analysis or comparable consumer analytics solutions.</li>
+                            <li class="timeline-text">Providing the decision-support analysis, monitor and track the progress the program and handing the overall project. Interact directly with Managers and their staffs, Business process owners,Finance, and IT to design and implement data analysis solutions. Develop methodologies that allow for efficient and repetitive data extraction processes</li>
+                            <li class="timeline-text">Aid in developing style guide for development of BI visualizations, design of components, naming of items, data source creation and naming</li>
+                          </ul>
+                        </div>
+                        <!-- timeline Item End -->
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2020/03 - 2020/10</h6>
+                          <h4 class="timeline-title">Data Analyst</h4>
+                          <ul class="timeline-list">
+                            <li class="timeline-text">Use strong quantitative and analytical abilities to integrate and analysis data.</li>
+                            <li class="timeline-text">Drive pilot projects, track & monitor progress and ensure future stabilization.</li>
+                            <li class="timeline-text">Assists with documentation and prioritization of the business value associated with the business requirements. Provided executives with analytics and decision-support tools used as the basis for reorganization, consolidation and relocation strategies.</li>
+                            <li class="timeline-text">Perform exploratory data analysis, generate and test working hypotheses, and uncover interesting trends and relationships.</li>
+                            <li class="timeline-text">Used the Flask Framework to develop the application and Built multifunction readmission reports using pandas, numpy and others python libraries</li>
+                            <li class="timeline-text">Analyze Nepalese Developer, Technology, Work and community and methodology of Stack Overflow developer survey 2011-2019.</li>
+                          </ul>
+                        </div>
+                        <!-- timeline Item End -->
+                        <!-- timeline Item -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2018/11 - 2019/04</h6>
+                          <h4 class="timeline-title">Python Developer</h4>
+                          <ul class="timeline-list">
+                            <li class="timeline-text">Applied data extracting, data cleaning, and utilization analysis, adding a second layer moving average, quality assurance, and trend lines for power insights and creating a storyline.</li>
+                            <li class="timeline-text">Analyzed inventory usage, sales, product, and team performance, calculated forecast for monthly orders and performed time series analysis.</li>
+                            <li class="timeline-text">Compared returning vs. new customers in sales and created trend lines for power insights and the KPL Dashboard.</li>
+                            <li class="timeline-text">Applied Exploratory Data Analysis (EDA) for modeling and analysis of structured and unstructured data used for a hybrid recommendation system on the Travalize website, based on travel package sales, ratings, and pricing.</li>
+                          </ul>
+                        </div>
+                        <!-- timeline Item End -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Service Section -->
+      <section class="service section" id="services">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Services</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Service item -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fa fa-line-chart"></i></div>
+                <h4>Data Analysis</h4>
+                <p>With over 5 years of experience in data analysis, I specialize in extracting valuable insights from complex datasets, 
+                  creating predictive models, and optimizing business operations using statistical methods and machine learning techniques.</p>
+              </div>
+            </div>
+            <!-- Service item End -->
+            <!-- Service item -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fa fa-code"></i></div>
+                <h4>Web Development</h4>
+                <p>As a full-stack developer, I build dynamic and responsive web applications, focusing on optimizing user experience, efficient data handling, 
+                  and ensuring seamless integration with backend systems.</p>
+              </div>
+            </div>
+            <!-- Service item End -->
+            <!-- Service item -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fa fa-male"></i></div>
+                <h4>Consultant </h4>
+                <p>With my extensive experience in data analysis and web development, I offer consulting services to help businesses streamline their processes, enhance decision-making, and adopt modern technologies for growth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Service Section End -->
+
+      <!-- Contact Section -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- contact-info-item  -->
+            <div class="contact-info-item padd-15">
+              <div class="icon">
+                <i class="fa fa-phone"></i>
+                <h4>Call Us On</h4>
+                <p>+977 9861338379</p>
+              </div>
+            </div>
+            <!-- contact-info-item end -->
+            <!-- contact-info-item  -->
+            <div class="contact-info-item padd-15">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+                <h4>Email</h4>
+                <p>info.bhabukpokharel@gmail.com</p>
+              </div>
+            </div>
+            <!-- contact-info-item end -->
+          </div>
+
+          <!-- Contact Form -->
+          <div class="row">
+            <form action="#" class="contact-form padd-15">
+              <div class="row">
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="text" name="" class="form-control" placeholder="Name*">
+                  </div>
+                </div>
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="email" name="" class="form-control" placeholder="Email*">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <input type="text" name="" class="form-control" placeholder="Subject*">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <textarea class="form-control" name="" placeholder="Your Message..."></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 padd-15">
+                  <button type="submit" class="btn">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- Contact Form End -->
+        </div>
+      </section>
+      <!-- Contact Section End -->
+
+    </div>
+    <!-- Main Content End -->
+  </div>
+  <!-- Main Container End -->
+
+  <!-- Lightbox -->
+  <div class="lightbox">
+    <div class="lightbox-content">
+      <div class="lightbox-close">&times;</div>
+      <img src="" alt="" onclick="nextItem()" class="lightbox-img">
+      <div class="lightbox-caption">
+        <div class="caption-text"></div>
+        <div class="caption-counter"></div>
+      </div>
+    </div>
+    <div class="lightbox-controls">
+      <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+      <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
+    </div>
+  </div>
+  <!-- Lightbox End -->
+
+  <!-- Live Style Switcher - Demo Only -->
+  <div class="style-switcher">
+    <div class="toggle-style-switcher">
+      <i class="fa fa-cog fa-spin"></i>
+    </div>
+    <h5>Style Switcher</h5>
+    <ul>
+      <li><a href="javascript:void(0);" title="pink" style="background-color: #ec1839;" onclick="setActiveStyle('pink')"></a></li>
+      <li><a href="javascript:void(0);" title="blue" style="background-color: #2196f3;" onclick="setActiveStyle('blue')"></a></li>
+      <li><a href="javascript:void(0);" title="orange" style="background-color: #fa5b0f;" onclick="setActiveStyle('orange')"></a></li>
+      <li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400;" onclick="setActiveStyle('yellow')"></a></li>
+      <li><a href="javascript:void(0);" title="green" style="background-color: #72b626;" onclick="setActiveStyle('green')"></a></li>
+    </ul>
+    <h5>Body Skin</h5>
+    <label>
+      <input type="radio" class="body-skin" name="body-skin" value="light" checked="true"> Light
+    </label>
+    <label>
+      <input type="radio" class="body-skin" name="body-skin" value="dark"> Dark
+    </label>
+  </div>
+  <!-- Live Style Switcher - Demo Only End -->
+
+  <!-- Plugins -->
+  <script src="{{ url_for('static', filename='js/ityped.min.js') }}"></script>
+  <!-- Template js -->
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  <!-- Live Style Js - Demo Only -->
+  <script src="{{ url_for('static', filename='js/styleSwitcher.js') }}"></script>
+</body>
+
+</html>
+
